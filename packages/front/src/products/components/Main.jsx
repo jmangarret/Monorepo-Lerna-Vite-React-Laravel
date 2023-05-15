@@ -8,15 +8,20 @@ import { SocialLinks } from "./SocialLink";
 import { Description } from "./Description";
 import { Detail } from "./Detail";
 import { getInfo } from "../redux/product.actions";
-import data from "../data/detalle.json";
+import { getProducts } from "../http/product";
 
 export const Main = () => {
 
   const dispatch = useDispatch();
 
   useEffect(() => {
+    getData();
+  }, [])
+
+  const getData = async () => {
+    const data = await getProducts();
     dispatch(getInfo(data.products[0]));
-  })
+  }
 
   const product = useSelector((state) => state.products.data);
 
