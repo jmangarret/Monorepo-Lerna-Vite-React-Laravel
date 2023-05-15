@@ -1,0 +1,22 @@
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+}
+
+.divider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.separator {
+    margin-bottom: 5px;
+}

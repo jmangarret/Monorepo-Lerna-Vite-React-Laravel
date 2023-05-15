@@ -1,0 +1,11 @@
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-links li a {
+  margin: 0 5px;
+}

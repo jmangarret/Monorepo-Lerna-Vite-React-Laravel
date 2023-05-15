@@ -1,0 +1,39 @@
+.subtitle {
+  font-size: medium;
+  color: gray;
+  font-weight: bold;
+}
+
+.size-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.size-list li {
+  font-size: large;
+  font-weight: bold;
+  color: gray;
+}
+
+.size-list a {
+  position: relative;
+  padding: .5em 0;
+  color: gray;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  background-color: #eee;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+hr.fat {
+  border: 5px solid gray;
+  border-radius: 5px;
+}

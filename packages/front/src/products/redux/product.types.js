@@ -1,0 +1,1 @@
+export const GET_INFO = "@products/GET_INFO";
