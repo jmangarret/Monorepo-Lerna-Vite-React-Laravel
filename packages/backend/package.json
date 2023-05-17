@@ -4,7 +4,7 @@
     "private": true,
     "type": "module",
     "scripts": {
-      "start": "php artisan serve",
+      "start": "composer update --no-scripts && php artisan serve",
         "dev": "vite",
         "build": "vite build"
     },
